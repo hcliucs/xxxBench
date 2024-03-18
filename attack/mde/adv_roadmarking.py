@@ -4,7 +4,7 @@ project_path = os.path.dirname(os.path.dirname(current_path))
 sys.path.append(current_path)
 sys.path.append(project_path)
 from adv_roadmarking_log import *
-from data.mde.mde_data import Patch, OBJ, ENV
+from data.kitti.advrm_data import Patch, OBJ, ENV
 from attack.mde.adv_roadmarking_log import *
 from attack.mde.style_loss import get_style_model_and_losses
 from model.mde.load_model import load_target_mde_model, integrated_mde_models, predict_batch, predict_depth_fn
